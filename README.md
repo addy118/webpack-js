@@ -20,9 +20,11 @@ npm install --save-dev webpack webpack-cli
 
 
 ## Step 3
-Create a `src` directory for your source code files and create your necessary files (here, index.html, style.css, script.js)
+Create a `src` directory for your source code files and create your necessary files in it & Create an `assets` directory in `src` directory for adding your media
+> [!NOTE]
+> Here, index.html, style.css, script.js are used as starter files
 ```bash
-mkdir src && touch src/index.html src/style.css src/script.js
+mkdir src && touch src/index.html src/style.css src/script.js && makdir src/assets
 ```
 
 
@@ -45,6 +47,8 @@ touch webpack.config.js
 
 ## Step 6
 Add following configurations to it
+> [!IMPORTANT]
+> If you change the starter filenames, change the module.exports.entry path and module.exports.plugins[0].options.template path
 ```js
 // for handling html file
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -55,7 +59,7 @@ const path = require('path');
 module.exports = {
     // default configuration object
     mode: 'development',
-    entry: './src/script.js',   // change the file path if you change default entry file
+    entry: './src/script.js',   // IMPORTANT
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
@@ -65,7 +69,7 @@ module.exports = {
     // for handling html file
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./src/index.html",   // change the file path if you change default entry file
+            template: "./src/index.html",   // IMPORTANT
         }),
     ],
 
