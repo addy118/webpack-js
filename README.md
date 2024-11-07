@@ -1,7 +1,7 @@
 # Webpack-JS
 A webpack bundler template for HTML, CSS, JS with image loaders
 
-##
+
 
 ## Step 1
 Initialize a package.json file using
@@ -9,7 +9,7 @@ Initialize a package.json file using
 npm init -y
 ```
 
-##
+
 
 ## Step 2
 Install `webpack` and `webpack-cli` package
