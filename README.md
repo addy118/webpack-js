@@ -48,7 +48,7 @@ touch webpack.config.js
 ## Step 6
 Add following configurations to it
 > [!IMPORTANT]
-> If you change the starter filenames, change the module.exports.entry path and module.exports.plugins[0].options.template path
+> If you change the starter filenames, change the `module.exports.entry` path and `module.exports.plugins[0].options.template` path
 ```js
 // for handling html file
 const HtmlWebpackPlugin = require('html-webpack-plugin');
