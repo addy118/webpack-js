@@ -14,9 +14,9 @@ npm install --save-dev webpack webpack-cli
 ```
 
 # Step 3:
-Create a `src` directory for your source code files and create your necessary files (here, index.html, style.css, index.js)
+Create a `src` directory for your source code files and create your necessary files (here, index.html, style.css, script.js)
 ```bash
-mkdir src && touch src/index.html src/style.css src/index.js
+mkdir src && touch src/index.html src/style.css src/script.js
 ```
 
 # Step 4:
