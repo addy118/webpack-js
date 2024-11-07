@@ -1,7 +1,7 @@
 # Webpack-JS
 A webpack bundler template for HTML, CSS, JS with image loaders
 
-\n
+
 
 # Step 1: 
 Initialize a package.json file using
@@ -9,7 +9,7 @@ Initialize a package.json file using
 npm init -y
 ```
 
-\n
+
 
 # Step 2:
 Install `webpack` and `webpack-cli` package
@@ -17,7 +17,7 @@ Install `webpack` and `webpack-cli` package
 npm install --save-dev webpack webpack-cli
 ```
 
-\n
+
 
 # Step 3:
 Create a `src` directory for your source code files and create your necessary files (here, index.html, style.css, script.js)
@@ -25,7 +25,7 @@ Create a `src` directory for your source code files and create your necessary fi
 mkdir src && touch src/index.html src/style.css src/script.js
 ```
 
-\n
+
 
 # Step 4:
 Install `html-webpack` for handling html and `style-loader`, `css-loader`
@@ -33,7 +33,7 @@ Install `html-webpack` for handling html and `style-loader`, `css-loader`
 npm install --save-dev html-webpack-plugin style-loader css-loader
 ```
 
-\n
+
 
 # Step 5:
 Create config file `webpack.config.js` 
@@ -41,7 +41,7 @@ Create config file `webpack.config.js`
 touch webpack.config.js
 ```
 
-\n
+
 
 # Step 6:
 Add following configurations to it
@@ -82,7 +82,7 @@ module.exports = {
 };
 ```
 
-\n
+
 
 # Step 7:
 For loading images in html install `html-loader` & also add rules in configuration file and for js just add the rules (append these rules to the existing ones)
@@ -106,7 +106,7 @@ module: {
 },
 ```
 
-\n
+
 
 # Step 8:
 For auto-reload on save, ease-in-debugging, source-map, install `webpack-dev-server` and add the required rules in the configuration file
@@ -121,7 +121,7 @@ devServer: {
 },
 ```
 
-\n
+
 
 # Step 9:
 Run the following command and go to [localhost:8080](http://localhost:8080/)
