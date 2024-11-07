@@ -1,17 +1,17 @@
 # Webpack-JS
 A webpack bundler template for HTML, CSS, JS with image loaders
 
+##
 
-
-# Step 1: 
+## Step 1
 Initialize a package.json file using
 ```bash
 npm init -y
 ```
 
+##
 
-
-# Step 2:
+## Step 2
 Install `webpack` and `webpack-cli` package
 ```bash
 npm install --save-dev webpack webpack-cli
@@ -19,7 +19,7 @@ npm install --save-dev webpack webpack-cli
 
 
 
-# Step 3:
+## Step 3
 Create a `src` directory for your source code files and create your necessary files (here, index.html, style.css, script.js)
 ```bash
 mkdir src && touch src/index.html src/style.css src/script.js
@@ -27,7 +27,7 @@ mkdir src && touch src/index.html src/style.css src/script.js
 
 
 
-# Step 4:
+## Step 4
 Install `html-webpack` for handling html and `style-loader`, `css-loader`
 ```bash
 npm install --save-dev html-webpack-plugin style-loader css-loader
@@ -35,7 +35,7 @@ npm install --save-dev html-webpack-plugin style-loader css-loader
 
 
 
-# Step 5:
+## Step 5
 Create config file `webpack.config.js` 
 ```bash
 touch webpack.config.js
@@ -43,7 +43,7 @@ touch webpack.config.js
 
 
 
-# Step 6:
+## Step 6
 Add following configurations to it
 ```js
 // for handling html file
@@ -84,7 +84,7 @@ module.exports = {
 
 
 
-# Step 7:
+## Step 7
 For loading images in html install `html-loader` & also add rules in configuration file and for js just add the rules (append these rules to the existing ones)
 ```bash
 npm install --save-dev html-loader
@@ -108,7 +108,7 @@ module: {
 
 
 
-# Step 8:
+## Step 8
 For auto-reload on save, ease-in-debugging, source-map, install `webpack-dev-server` and add the required rules in the configuration file
 ```bash
 npm install --save-dev webpack-dev-server
@@ -123,7 +123,7 @@ devServer: {
 
 
 
-# Step 9:
+## Step 9
 Run the following command and go to [localhost:8080](http://localhost:8080/)
 ```bash
 npx webpack-serve
