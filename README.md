@@ -79,6 +79,9 @@ module.exports = {
 
 # Step 7:
 For loading images in html install `html-loader` & also add rules in configuration file and for js just add the rules (append these rules to the existing ones)
+```bash
+npm install --save-dev html-loader
+```
 ```js
 module: {
     rules: [
