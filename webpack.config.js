@@ -1,6 +1,9 @@
 // for handling html file
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+// for polyfill errors
+const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
+
 // default import
 const path = require('path');
 
@@ -20,11 +23,14 @@ module.exports = {
         watchFiles: ["./src/index.html"],
     },
 
-    // for handling html file
     plugins: [
+        // for handling html file
         new HtmlWebpackPlugin({
             template: "./src/index.html",
         }),
+
+        // for polyfill errors (for making automatic)
+        new NodePolyfillPlugin(),
     ],
 
     // for handling css, html images & js images

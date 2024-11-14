@@ -130,5 +130,5 @@ devServer: {
 ## Step 9
 Run the following command and go to [localhost:8080](http://localhost:8080/)
 ```bash
-npx webpack-serve
+npx webpack serve
 ```
