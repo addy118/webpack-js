@@ -1,0 +1,11 @@
+node_modules/
+
+.vscode/
+.idea/
+
+build/
+
+eslint.config.mjs
+package.json
+package-lock.json
+.prettierrc
