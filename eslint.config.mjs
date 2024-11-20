@@ -8,11 +8,11 @@ export default [
 
   {
     rules: {
-      "eqeqeq": "warn",
+      eqeqeq: "warn",
       "no-unused-vars": ["warn"],
       // "no-console": "warn",
-      "semi": ["error", "always"],
-      "indent": ["error", 2],
+      semi: ["error", "always"],
+      indent: ["error", 2],
       "no-undef": "error",
       "no-empty": "warn",
       "prefer-const": "warn",
@@ -20,7 +20,6 @@ export default [
       "no-duplicate-imports": "error",
       "max-len": ["error", { code: 80 }],
       "consistent-return": "warn",
-      "no-commonjs": "warn",
     },
   },
 ];

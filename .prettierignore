@@ -5,7 +5,7 @@ node_modules/
 
 build/
 
-eslint.config.mjs
-package.json
-package-lock.json
+# eslint.config.mjs
+# package.json
+# package-lock.json
 .prettierrc
