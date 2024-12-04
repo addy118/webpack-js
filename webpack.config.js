@@ -1,4 +1,4 @@
-/* eslint-disable no-commonjs */
+/* eslint-disable */
 // for handling html file
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
@@ -22,6 +22,9 @@ module.exports = {
   devtool: "eval-source-map",
   devServer: {
     watchFiles: ["./src/index.html"],
+    client: {
+      logging: "none",
+    },
   },
 
   plugins: [
