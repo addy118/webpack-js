@@ -10,6 +10,7 @@
     "commit": "git add dist -f && git commit -m \"Deployment Commit\"",
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "update": "npm run merge && npm run build && npm run commit && npm run deploy",
+    "svg": "npx prettier --write svg/file/path --parser html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

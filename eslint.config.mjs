@@ -18,7 +18,7 @@ export default [
       "prefer-const": "warn",
       "arrow-spacing": ["error", { before: true, after: true }],
       "no-duplicate-imports": "error",
-      "max-len": ["error", { code: 80 }],
+      // "max-len": ["error", { code: 80 }],
       "consistent-return": "warn",
     },
   },
